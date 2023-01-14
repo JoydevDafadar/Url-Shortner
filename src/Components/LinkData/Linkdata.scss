@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+.result{
+
+    display: flex;
+    flex-direction: row;
+
+    p{
+        font-family: none !important;
+        width: 25rem;
+        font-size: 2rem !important;
+        padding: 0rem 1rem ;
+        border: 1px solid black;
+        
+    }
+    button{
+        height: 3rem !important;
+        width: 20rem !important;
+    }
+    .copid{
+        background-color: #fff !important;
+        color: #ffa502 !important;
+        border: 1px solid #ffa502 !important;
+    }
+
+}
+
+.noData{
+    text-align:  center;
+    font-size: 2rem !important;
+    color: #ffa502;
+}

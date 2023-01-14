@@ -1,0 +1,42 @@
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+
+    .element{
+        font-size: 2rem;
+        font-weight: 900;
+
+        animation: loader 1.5s linear infinite;
+        transition: 1.5s;
+
+        span{
+            color: #ffa502;
+        }
+    }  
+}
+
+@keyframes loader{
+    0%{
+        font-size: 2rem;
+        opacity: 0;
+    }
+    30%{
+        font-size: 3rem;
+        opacity: 1;
+    }
+    50%{
+        font-size: 3rem;
+        opacity: 1;
+    }
+
+    100%{
+        font-size: 15rem;
+        opacity: 0;
+    }
+}
+
+
+
